@@ -6,4 +6,12 @@ let strLength = someValue.length;
 console.log(strLength);
 let anotherValue = "another string";
 let anotherStrLength = anotherValue.length;
-console.log(anotherStrLength); //Outputs: 14
+console.log(anotherStrLength);
+let employeeData = {
+    id: 1,
+    name: "Nick Smith",
+    postion: "Developer"
+};
+// Use type assertion to treat employee Data as employee Type
+let employee = employeeData;
+console.log(employee.name);
